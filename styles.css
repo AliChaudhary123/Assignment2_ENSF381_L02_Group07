@@ -1,0 +1,47 @@
+header {
+    background-color: #004080;  /* Deep blue */
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    align-items: center;  /* Aligns items vertically */
+    justify-content: space-between; /* Ensures logo left, text right */
+}
+
+
+header img {
+    width: 90px;
+    height: 90px;
+}
+
+header h2{
+    font-size: 0px;
+}
+
+div {
+    display: flex;  
+    justify-content: center;  
+    background-color: #003366;  
+    padding: 10px; 
+    margin-bottom: 30px; 
+    
+
+}
+
+div a {
+    color: white;  
+    padding: 15px;
+    font-size: 16px; 
+    margin: 0 250px; 
+    text-decoration: none;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: #004080; 
+    color: white;
+    padding: 10px;
+
+}
+
