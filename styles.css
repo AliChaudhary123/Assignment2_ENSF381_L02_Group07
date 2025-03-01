@@ -93,6 +93,207 @@ footer {
   text-decoration: underline;
 }
 
+/*Course View*/
+/*Dropdown bar for the term select*/
+.course-view select{
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 px;
+
+    
+}
+
+.course-view label{
+    text-align: center;
+     
+    
+}
+
+
+.course-view label, select {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+
+.Enrolled table{
+    
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 5px;
+    
+}
+
+.Enrolled h2{
+    color: #003366;
+    text-align: center;
+}
+
+.Enrolled table td div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6f2ff;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+   
+    
+    
+}
+
+
+.Enrolled table td img{
+    width: 550px;
+    height: 400px;
+}
+
+
+
+.Enrolled table td a {
+    color: purple;
+    text-decoration: underline;
+    
+}
+
+/* Style for the Accept and Decline buttons inside the .course-buttons class */
+.course-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+}
+
+/* Accept Button (Green) */
+.course-buttons button.accept {
+  background-color: #4CAF50; 
+  color: white; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.course-buttons button.accept:hover {
+  background-color: #265e28; 
+}
+
+/* Decline Button (Red) */
+.course-buttons button.decline {
+  background-color: #D32F2F; 
+  color: white; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  
+ 
+}
+
+.course-buttons button.decline:hover {
+  background-color: #821b1b; 
+}
+
+
+
+/* Attempt Quiz */
+.quiz-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.quiz-main img { 
+  width: 100%;
+  height: 150px;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.quiz-info {
+  text-align: center;
+  background-color: lightblue;
+  padding: 20px;
+  margin-left: 250px;
+  margin-right: 250px;
+  width: 60%;
+
+}
+
+.quiz-info h2{
+  color: #004080;
+}
+
+/* Quiz Questions */
+.quiz-question {
+  margin: 20px 250px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  
+}
+
+.quiz-options {
+  background-color: #cacaca;
+  padding: 10px;
+  border-radius: 0px;
+}
+
+.quiz-options input {
+  margin-right: 10px;
+}
+.quiz-question button {
+  background-color: lightblue;
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  align-items: center;
+  margin: 10px auto;
+  display: block;
+ 
+  
+}
+
+
+
+.quiz-question button:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+/* Finish Quiz Button */
+.quiz-main form button {
+  background-color: #d32f2f; 
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.quiz-main form button:hover {
+  background-color: #821b1b; 
+}
+
+/* Center the Finish Quiz Button */
+.quiz-main form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}  
+
 /* leaderboard */
 
 .leaderboard-table tr img {
